@@ -1,1 +1,3 @@
 # objects
+
+https://www2.festo.com/241018-webinar-lifescience-laborautomation?fwacid=4050839cd05f2bf0&emailName=DE_AUT_202410_Monthly%20Newsletter_Version2&elqTrackId=867A7C29FD049DD35CF16D0F2C4E7BFA&elq=a3f84874fbe34b2c8e7a7a7b415a2cd4&elqaid=11610&elqat=1&elqCampaignId=4296&elqak=8AF5441E5226245E0C44105E28DACA944C2E96C324BC371429C4A9F912DF3CC333E8
