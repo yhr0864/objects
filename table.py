@@ -1,6 +1,5 @@
 import serial
 import time
-from multiprocessing import Process
 
 
 class Table:
@@ -27,23 +26,14 @@ class Table:
                 return "ERROR: No response"
 
     def rotate(self):
-        # if self.numBottles == 2:
-        #     command = "5"
-        # elif self.numBottles == 6:
-        #     command = "6"
-        # else:
-        #     print("ERROR")
-        command = f"Motor_{self.tableID}_rotate"
+
+        command = f"motor{self.tableID} rotate"
         feedback = self.write_read(command)
         print("Received:", feedback)
 
     def home(self):
-        if self.numBottles == 2:
-            command = "a"
-        elif self.numBottles == 6:
-            command = "b"
-        else:
-            print("ERROR")
+
+        command = f"motor{self.tableID} home"
         feedback = self.write_read(command)
         print("Received:", feedback)
 
