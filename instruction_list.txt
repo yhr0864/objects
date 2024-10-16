@@ -1,0 +1,5 @@
+motor1 home
+motor1 rotate
+motor2 home
+motor2 rotate
+End
