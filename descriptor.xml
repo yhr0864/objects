@@ -1,0 +1,42 @@
+<component>
+  <componentSchemaVersion>1.3</componentSchemaVersion>
+  <componentID/>
+  <componentContent>vmware/win-vmsetup-exe</componentContent>
+  <componentFormat>tar</componentFormat>
+  <payload>VMware-player-17.6.1-24319023.exe</payload>
+  <buildDate>2024-10-03T05:08:53.350000-07:00</buildDate>
+  <packedSize>0</packedSize>
+  <payloadSize>0</payloadSize>
+  <checksum>
+    <checksumType/>
+    <checksum/>
+  </checksum>
+  <product>
+    <productId>player-windows</productId>
+    <version>17.6.1</version>
+    <arch>all</arch>
+    <buildNumber>24319023</buildNumber>
+  </product>
+  <visibleTo>
+    <product>
+      <buildNumber>24319023</buildNumber>
+      <version>17.6.1</version>
+      <arch>all</arch>
+      <productId>player-windows</productId>
+    </product>
+  </visibleTo>
+  <preInstall>
+    <adminInstall>true</adminInstall>
+  </preInstall>
+  <postInstall/>
+  <requirementList/>
+  <customList/>
+  <dependsOn/>
+  <installerList>
+    <installer mimeType="vmware/win-vmsetup-exe">
+      <productCode>{8FBF6171-4160-456C-A27D-89EC927695C5}</productCode>
+      <productVersion>17.6.1</productVersion>
+      <upgradeCode>{217329DA-42FA-11E2-B26F-FAF46088709B}</upgradeCode>
+    </installer>
+  </installerList>
+</component>
